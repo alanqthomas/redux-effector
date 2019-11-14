@@ -1,6 +1,6 @@
 {
   "name": "@alanqthomas/redux-effector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redux middleware to handle async effects simply",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,5 +16,8 @@
   "scripts": {
     "build": "tsc",
     "prepublish": "yarn build"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
